@@ -6,6 +6,6 @@ Unzip the file  and open it in the unity as a project.
 
 Import Agora video SDK in the unity.
 
-First of all around the project in unity and join from the web part.
+Run the project in unity and join from the web part.
 
 Do not forget to give permissions for the video and microphone on the browser.
