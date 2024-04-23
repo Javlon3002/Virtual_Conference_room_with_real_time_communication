@@ -3,6 +3,9 @@ First of all, open the unity editor.
 ![Open the Unity Hub and create a new project with the whatever name you want](Images/1.png)
 The version of the Unity which we are using in this project is 2022.3.23f1. As it can be seen, in the second image, we just created a new project called  Real-time communication.
 ![](Images/2.png)
+In the following image we can say that, the unity project is getting opened.
+![](Images/3.png)
+
 
 
 
