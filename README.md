@@ -1,2 +1,3 @@
-In this Github repository, we are gonna implement real-time communication between Unity and web browser. 
-Please follow the this repository step by step. 
+Welcome to this GitHub repository where we will be implementing a real-time communication between a web browser and Unity environment.
+
+
