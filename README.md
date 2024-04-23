@@ -29,6 +29,7 @@ Do not forget to change the name of the raw image component to the  **LocalViewO
 ![Local raw Image Component](Images/10.png)
 For remote video, use the same steps to create a RawImage called RemoteViewObject with the following parameters.  **posX: 250,  posY: 0,  Width: 250 , Height: 250**
 Do not forget to change the name of the raw image component to the  **RemoteViewObject**. 
+![Local raw Image Component](Images/11.png)
 
 
 
