@@ -16,11 +16,30 @@ After creating the canvas, we will be having it in the scene.
 Now, we are going to create two buttons with the text "Join" and "Leave" respectively.In order to create the button, we can follow the following procedure. 
 First of all, we are going to right click on the sample scene area, and from there we can follow the following procedure shown in the image.
 ![Canvas in the scene](Images/7.png)
-For the Join Button,  give the positions  of X and Y: -350 and  -172 respectively
-For the Leave Button, give the positions of X and Y: 350 and -172 respectively
+For the Join Button,  give the positions  of X and Y: -350 and  -172 respectively.
+For the Leave Button, give the positions of X and Y: 350 and -172 respectively.
 By the way, do not forget to give the buttons text.
 After setting up the buttons, we will be having the following window.
 ![Canvas in the scene](Images/8.png)
+Since we are done with the buttons, we can continue with raw **image components ** in order to display the local and remote videos respectively.
+In order to create raw image component, please follow the following procedure. Right click on the sample scene, from their click on the UI and choose raw image.
+![Canvas in the scene](Images/9.png)
+Create the first raw image component with the following parameters. ** posX: -250,  posY: 0,  Width: 250,  Height: 250**
+Do not forget to change the name of the raw image component to the  **LocalViewObject**. 
+![Local raw Image Component](Images/10.png)
+For remote video, use the same steps to create a RawImage called RemoteViewObject with the following parameters.  **posX: 250,  posY: 0,  Width: 250 , Height: 250**
+Do not forget to change the name of the raw image component to the  **RemoteViewObject**. 
+
+
+
+ 
+
+
+ 
+
+
+
+
 
 
 
