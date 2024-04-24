@@ -23,7 +23,7 @@ After setting up the buttons, we will be having the following window.
 Since we are done with the buttons, we can continue with raw **image components ** in order to display the local and remote videos respectively.
 In order to create raw image component, please follow the following procedure. Right click on the sample scene, from their click on the UI and choose raw image.
 ![Canvas in the scene](Images/9.png)
-Create the first raw image component with the following parameters. ** posX: -250,  posY: 0,  Width: 250,  Height: 250**.
+Create the first raw image component with the following parameters. **posX: -250,  posY: 0,  Width: 250,  Height: 250**.
 Do not forget to change the name of the raw image component to the  **LocalViewObject**. 
 ![Local raw Image Component](Images/10.png)
 For remote video, use the same steps to create a RawImage called RemoteViewObject with the following parameters.  **posX: 250,  posY: 0,  Width: 250 , Height: 250**.
