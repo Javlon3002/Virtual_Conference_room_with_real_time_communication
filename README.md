@@ -31,26 +31,27 @@ Do not forget to change the name of the raw image component to the  **RemoteView
 ![Local raw Image Component](Images/11.png)
 Now since we are done with the basic UI setup, we can continue with importing the Agora video SDK into the unity environment. In order to download the unity with your SDK , please refer to the following link. https://docs.agora.io/en/sdks?platform=unity 
 At the time of creating this GitHub repository, the version of the video SDK which we are using for the unity is 4.3.0. Since the volume of the video SDK is huge we couldn't upload it on this GitHub repository, that's why you can download it directly from the Agora website. 
-Once we have downloaded the video SDK in the zip format, will be having the following file shown in the middle of image.
+Once we have downloaded the video SDK in the zip format, will be having the following file shown in the below given image.
 ![](Images/12.png)
-We have the unzip this file and we will be having the following file shown in the below given image.
+We have to  unzip this file and we will be having the following file shown in the below given image.
 ![](Images/13.png)
-After this step, I have to follow the following my steps in order to import this SDK into the unity environment.
+After this step, we have to follow the following  steps in order to import this SDK into the unity environment.
 ![](Images/14.png)
-After that, we will be having the following window, and we have to press import which is shown in the below give image. 
+After that, we will be having the following window, and we have to press import which is shown in the below given image. 
 ![](Images/15.png)
 Press "Yes, for these and other files that might be found later " shown in the below given image. 
+![](Images/16.png)
 After importing the video SDK, we might be having the following problem shown in the below given image.
 ![](Images/17.png)
 In order to solve this problem, just open the file or maybe just double click on the red error message and  you will be taken to the file  where you are having the problem with the import which is highlighted in the below given image.
 ![](Images/18.png)
 Simply, delete the import line which is highlighted in the below image.
 ![](Images/19.png)
-After deleting in the Unity environment, we'll be having the following and press the highlighted part.
+After deleting the import statement in the Unity environment, we'll be having the following and press the highlighted part.
 ![](Images/20.png)
 Now as we can see in the following image, Agora  video SDK has been imported into the Unity environment.
 ![](Images/21.png)
-Now we are going to create an empty game object which will be used in order to control our script. In order to create a new game object, we have the right click on the sample scene area and from there we are going to choose create empty option. The full procedure is shown in the below given image.
+Now we are going to create an empty game object which will be used in order to control our script. In order to create a new game object, we have to  right click on the sample scene area and from there, we are going to choose create empty option. The full procedure is shown in the below given image.
 ![](Images/22.png)
 We are going to rename this empty game object by giving it the name called **GameController**. It is shown below.
 ![](Images/23.png)
@@ -59,13 +60,13 @@ In order to do that, right click on the assets folder, from their choose  **crea
 ![](Images/24.png)
 After creating the folder with, we will be having the following.
 ![](Images/25.png)
-Now we are going to open the scripts folder, and in the script all that we are going to create new C# script. We are going to right click on the empty Script  folder and from there we are going to create new C# script by the following step by step procedure. We are going to name this file AgoraChat.
+Now we are going to open the scripts folder, and in the script folder, we are going to create new C# script. We are going to right click on the empty Script  folder and from there we are going to create a new C# script by the following step by step procedure. We are going to name this file AgoraChat.
 ![](Images/26.png)
-Simply attach this script to the empty game object called the GameController.
+Simply, attach this script to the empty game object called the GameController.
 After attaching the script,  we can see from the inspector window of the game object called GameController that the script has been attached successfully.
 ![](Images/27.png)
 Now, open the script which is given in this GitHub repository called **AgoraChat** and copy the code from the script into the C# file that you created in your project
-As you probably know, in order to run this project to make this real-time communication possible between the unity and the web browser, we have to rely on the Agora (https://www.agora.io/en/) . From the Agora developer console, we have to get app ID and temporary token which is valid  for 24 hours. Actually, if you do not want to use this temporary token which you are obtaining from the Agora developer console, you can create your own server which deals with token generation. 
+As you probably know, in order to run this project to make this real-time communication possible between the unity and the web browser, we have to rely on the Agora (https://www.agora.io/en/) . From the Agora developer console, we have to get app ID and temporary token which is valid  for 24 hours. Actually, if you do not want to use this temporary token which you are obtaining from the Agora developer console or you can create your own server which deals with token generation. 
 Now I'll show you how to obtain this app ID and temporary token. If you haven't created Agora account before, you have to do so by following the on-screen prompts.
 At the time of creating this this GitHub repository, there are two version of the console: old and new. Below I am providing the link for the both versions.
 
@@ -79,9 +80,9 @@ After having the app ID and token, please replace the empty strings in the scrip
 ![](Images/29.png)
 Here do not forget to set the channel name which in my case is **"UnityChatWithWeb"**.
 Having had app ID, token and channel name. Now you can establish the communication successfully.
-After running the script, and joining on the web part we can have the following your job.
+After running the script, and joining on the web part we can have the following.
 In order to make the communication possible on the web part, we used the following demo website:  https://webdemo.agora.io/basicVideoCall/index.html
-After establishing you communication, we have the following results.
+After establishing the communication, we have the following results.
 ![](Images/30.png)
 ![](Images/31.jpg)
 
@@ -93,7 +94,7 @@ After establishing you communication, we have the following results.
 4. https://www.agora.io/en/blog/agora-video-sdk-for-unity-quick-start-programming-guide/
 5. https://docs.agora.io/en/video-calling/get-started/get-started-sdk?platform=unity
 6. Web site part to check: https://webdemo.agora.io/basicVideoCall/index.html
-   
+   Thank you 😊
 
 
 
