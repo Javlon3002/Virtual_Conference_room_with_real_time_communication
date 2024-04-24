@@ -9,7 +9,6 @@ After opening the project, we will be having the following window.
 ![](Images/4.png)
 Now, we are going to create a canvas where we will be having four UI components. They are two raw image components and two buttons.
 We will be having two raw image components in order to display the local and the remote video respectively. We will be having two buttons with the text "Join" and "Leave" in order to start and  end the communication. In order to create canvas, right click on the sample scene area and choose UI, and from there, we'll choose canvas.
-
 ![Creating canvas](Images/5.png)
 After creating the canvas, we will be having it in the scene.
 ![Canvas in the scene](Images/6.png)
@@ -24,12 +23,18 @@ After setting up the buttons, we will be having the following window.
 Since we are done with the buttons, we can continue with raw **image components ** in order to display the local and remote videos respectively.
 In order to create raw image component, please follow the following procedure. Right click on the sample scene, from their click on the UI and choose raw image.
 ![Canvas in the scene](Images/9.png)
-Create the first raw image component with the following parameters. ** posX: -250,  posY: 0,  Width: 250,  Height: 250**
+Create the first raw image component with the following parameters. ** posX: -250,  posY: 0,  Width: 250,  Height: 250**.
 Do not forget to change the name of the raw image component to the  **LocalViewObject**. 
 ![Local raw Image Component](Images/10.png)
-For remote video, use the same steps to create a RawImage called RemoteViewObject with the following parameters.  **posX: 250,  posY: 0,  Width: 250 , Height: 250**
+For remote video, use the same steps to create a RawImage called RemoteViewObject with the following parameters.  **posX: 250,  posY: 0,  Width: 250 , Height: 250**.
 Do not forget to change the name of the raw image component to the  **RemoteViewObject**. 
 ![Local raw Image Component](Images/11.png)
+Now since we are done with the basic UI setup, we can continue with importing the Agora video SDK into the unity environment. In order to download the unity with your SDK , please refer to the following link. https://docs.agora.io/en/sdks?platform=unity 
+At the time of creating this GitHub repository, the version of the video SDK which we are using for the unity is 4.3.0. Since the volume of the video SDK is huge we couldn't upload it on this GitHub repository, that's why you can download it directly from the Agora website. 
+
+
+
+
 
 
 
