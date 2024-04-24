@@ -20,7 +20,7 @@ For the Leave Button, give the positions of X and Y: 350 and -172 respectively.
 By the way, do not forget to give the buttons text.
 After setting up the buttons, we will be having the following window.
 ![Canvas in the scene](Images/8.png)
-Since we are done with the buttons, we can continue with raw **image components ** in order to display the local and remote videos respectively.
+Since we are done with the buttons, we can continue with raw **image components** in order to display the local and remote videos respectively.
 In order to create raw image component, please follow the following procedure. Right click on the sample scene, from their click on the UI and choose raw image.
 ![Canvas in the scene](Images/9.png)
 Create the first raw image component with the following parameters. **posX: -250,  posY: 0,  Width: 250,  Height: 250**.
