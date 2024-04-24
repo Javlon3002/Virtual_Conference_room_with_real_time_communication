@@ -83,7 +83,7 @@ After running the script, and joining on the web part we can have the following 
 In order to make the communication possible on the web part, we used the following demo website:  https://webdemo.agora.io/basicVideoCall/index.html
 After establishing you communication, we have the following results.
 ![](Images/30.png)
-![](Images/31.png)
+![](Images/31.jpg)
 
 **If you have any questions regarding this GitHub Repository, you can let us know by opening a new issue on this repository.**
 **References**
